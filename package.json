@@ -1,0 +1,22 @@
+{
+  "name": "claude-keep-awake",
+  "version": "2.4.1",
+  "description": "Prevents your computer from sleeping while Claude Code is working; on Apple Silicon also blocks lid-close sleep (no sudo, no entitlements). macOS / Linux / Windows.",
+  "author": "AxGord <axgord@gmail.com> (https://github.com/AxGord)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxGord/claude-keep-awake.git"
+  },
+  "homepage": "https://github.com/AxGord/claude-keep-awake",
+  "type": "module",
+  "files": [
+    "scripts/",
+    "hooks/",
+    "src/",
+    ".claude-plugin/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
